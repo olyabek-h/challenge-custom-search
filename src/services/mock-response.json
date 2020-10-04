@@ -1,0 +1,343 @@
+{
+    "_comment": "this json file responsed from GET https://www.googleapis.com/customsearch/v1?key=AIzaSyD53Si1HgADJtSObQ966TNR9VgHdw7uckU&cx=017576662512468239146:omuauf_lfve&q=lectures",
+    "kind": "customsearch#search",
+    "url": {
+      "type": "application/json",
+      "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+      "request": [
+        {
+          "title": "Google Custom Search - lectures",
+          "totalResults": "708000000",
+          "searchTerms": "lectures",
+          "count": 10,
+          "startIndex": 1,
+          "inputEncoding": "utf8",
+          "outputEncoding": "utf8",
+          "safe": "off",
+          "cx": "017576662512468239146:omuauf_lfve"
+        }
+      ],
+      "nextPage": [
+        {
+          "title": "Google Custom Search - lectures",
+          "totalResults": "708000000",
+          "searchTerms": "lectures",
+          "count": 10,
+          "startIndex": 11,
+          "inputEncoding": "utf8",
+          "outputEncoding": "utf8",
+          "safe": "off",
+          "cx": "017576662512468239146:omuauf_lfve"
+        }
+      ]
+    },
+    "context": {
+      "title": "CS Curriculum",
+      "facets": [
+        [
+          {
+            "anchor": "Lectures",
+            "label": "lectures",
+            "label_with_op": "more:lectures"
+          }
+        ],
+        [
+          {
+            "anchor": "Assignments",
+            "label": "assignments",
+            "label_with_op": "more:assignments"
+          }
+        ],
+        [
+          {
+            "anchor": "Reference",
+            "label": "reference",
+            "label_with_op": "more:reference"
+          }
+        ]
+      ]
+    },
+    "searchInformation": {
+      "searchTime": 0.446288,
+      "formattedSearchTime": "0.45",
+      "totalResults": "708000000",
+      "formattedTotalResults": "708,000,000"
+    },
+    "items": [
+      {
+        "kind": "customsearch#result",
+        "title": "CIS 160 Fall 2020 Course Page - University of Pennsylvania",
+        "htmlTitle": "CIS 160 Fall 2020 Course Page - University of Pennsylvania",
+        "link": "https://www.cis.upenn.edu/~cis160/current/lectures.html",
+        "displayLink": "www.cis.upenn.edu",
+        "snippet": "While lecture attendance is not mandatory, it is highly recommended that you \nattend all lectures. Lecture notes are posted here after both sections have been ...",
+        "htmlSnippet": "While <b>lecture</b> attendance is not mandatory, it is highly recommended that you <br>\nattend all <b>lectures</b>. <b>Lecture</b> notes are posted here after both sections have been&nbsp;...",
+        "cacheId": "k9487vOAo70J",
+        "formattedUrl": "https://www.cis.upenn.edu/~cis160/current/lectures.html",
+        "htmlFormattedUrl": "https://www.cis.upenn.edu/~cis160/current/<b>lectures</b>.html",
+        "pagemap": {
+          "metatags": [
+            {
+              "viewport": "width=device-width, initial-scale=1.0"
+            }
+          ]
+        },
+        "labels": [
+          {
+            "name": "lectures",
+            "displayName": "Lectures",
+            "label_with_op": "more:lectures"
+          }
+        ]
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "CS229 - Machine Learning",
+        "htmlTitle": "CS229 - Machine Learning",
+        "link": "https://see.stanford.edu/Course/CS229",
+        "displayLink": "see.stanford.edu",
+        "snippet": "Slides from Andrew's lecture on getting machine learning algorithms to work in \npractice can be found here. Previous projects: A list of last year's final projects ...",
+        "htmlSnippet": "Slides from Andrew&#39;s <b>lecture</b> on getting machine learning algorithms to work in <br>\npractice can be found here. Previous projects: A list of last year&#39;s final projects&nbsp;...",
+        "cacheId": "vB97xQjhxVcJ",
+        "formattedUrl": "https://see.stanford.edu/Course/CS229",
+        "htmlFormattedUrl": "https://see.stanford.edu/Course/CS229",
+        "pagemap": {
+          "cse_thumbnail": [
+            {
+              "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ2_-hJWbczpcTOUvBJuymIrbHevHrTlAL-EhyPo--xfmFh0F0Ts8iCmOc",
+              "width": "148",
+              "height": "208"
+            }
+          ],
+          "metatags": [
+            {
+              "viewport": "width=device-width, initial-scale=1"
+            }
+          ],
+          "cse_image": [
+            {
+              "src": "https://see.stanford.edu/Content/Images/Instructors/ng.jpg"
+            }
+          ]
+        },
+        "labels": [
+          {
+            "name": "lectures",
+            "displayName": "Lectures",
+            "label_with_op": "more:lectures"
+          }
+        ]
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "CSC2535S : lectures",
+        "htmlTitle": "CSC2535S : <b>lectures</b>",
+        "link": "http://www.cs.toronto.edu/~hinton/csc2535/lectures.html",
+        "displayLink": "www.cs.toronto.edu",
+        "snippet": "CSC2535 Spring 2013 - Lectures. DRAFT LECTURE SCHEDULE: SUBJECT TO \nCHANGE. The final versions of the lecture notes will generally be posted on ...",
+        "htmlSnippet": "CSC2535 Spring 2013 - <b>Lectures</b>. DRAFT <b>LECTURE</b> SCHEDULE: SUBJECT TO <br>\nCHANGE. The final versions of the <b>lecture</b> notes will generally be posted on&nbsp;...",
+        "cacheId": "N8wrLohIrBUJ",
+        "formattedUrl": "www.cs.toronto.edu/~hinton/csc2535/lectures.html",
+        "htmlFormattedUrl": "www.cs.toronto.edu/~hinton/csc2535/<b>lectures</b>.html"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "Lectures on Optimal Mechanism Design",
+        "htmlTitle": "<b>Lectures</b> on Optimal Mechanism Design",
+        "link": "http://www.ece.northwestern.edu/~hartline/omd.pdf",
+        "displayLink": "www.ece.northwestern.edu",
+        "snippet": "These lecture notes cover the second third of the class CS364B, Topics in \nAlgorithmic. Game Theory, offered at Stanford University in the Fall 2005 term.",
+        "htmlSnippet": "These <b>lecture</b> notes cover the second third of the class CS364B, Topics in <br>\nAlgorithmic. Game Theory, offered at Stanford University in the Fall 2005 term.",
+        "cacheId": "hfZhZkfUQUMJ",
+        "formattedUrl": "www.ece.northwestern.edu/~hartline/omd.pdf",
+        "htmlFormattedUrl": "www.ece.northwestern.edu/~hartline/omd.pdf",
+        "pagemap": {
+          "metatags": [
+            {
+              "moddate": "D:20060918144108",
+              "creationdate": "D:20060918144108",
+              "creator": "dvips(k) 5.95a Copyright 2005 Radical Eye Software",
+              "producer": "AFPL Ghostscript 8.0",
+              "title": "omd.dvi"
+            }
+          ]
+        },
+        "mime": "application/pdf",
+        "fileFormat": "PDF/Adobe Acrobat"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "Neural Networks for Machine Learning Lecture 6a Overview of mini ...",
+        "htmlTitle": "Neural Networks for Machine Learning <b>Lecture</b> 6a Overview of mini ...",
+        "link": "https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf",
+        "displayLink": "www.cs.toronto.edu",
+        "snippet": "Neural Networks for Machine Learning. Lecture 6a. Overview of mini-‐batch \ngradient descent. Geoffrey Hinton with. NiRsh Srivastava. Kevin Swersky ...",
+        "htmlSnippet": "Neural Networks for Machine Learning. <b>Lecture</b> 6a. Overview of mini-‐batch <br>\ngradient descent. Geoffrey Hinton with. NiRsh Srivastava. Kevin Swersky&nbsp;...",
+        "cacheId": "ba4RKgQC1ywJ",
+        "formattedUrl": "https://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf",
+        "htmlFormattedUrl": "https://www.cs.toronto.edu/~tijmen/csc321/slides/<b>lecture</b>_slides_lec6.pdf",
+        "pagemap": {
+          "cse_thumbnail": [
+            {
+              "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX7xQ9ncedQsb8gM80HHUW8dGymK2BmBb-RAesbeRsJIfs4c0cNtDZw2k",
+              "width": "268",
+              "height": "188"
+            }
+          ],
+          "metatags": [
+            {
+              "moddate": "D:20121009195946Z00'00'",
+              "creator": "PowerPoint",
+              "creationdate": "D:20121009195946Z00'00'",
+              "author": "Geoffrey Hinton",
+              "producer": "Mac OS X 10.7.4 Quartz PDFContext"
+            }
+          ],
+          "cse_image": [
+            {
+              "src": "x-raw-image:///cc231a2fef4933107b440e830b5f4991fd92571d23d40bfddfc9c5bf7e94d803"
+            }
+          ]
+        },
+        "mime": "application/pdf",
+        "fileFormat": "PDF/Adobe Acrobat"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "John Hennessy and David Patterson Turing Lecture",
+        "htmlTitle": "John Hennessy and David Patterson Turing <b>Lecture</b>",
+        "link": "https://www.acm.org/hennessy-patterson-turing-lecture",
+        "displayLink": "www.acm.org",
+        "snippet": "A video of the lecture can be viewed below. Titled “A New Golden Age for \nComputer Architecture: Domain-Specific Hardware/Software Co-Design, \nEnhanced ...",
+        "htmlSnippet": "A video of the <b>lecture</b> can be viewed below. Titled “A New Golden Age for <br>\nComputer Architecture: Domain-Specific Hardware/Software Co-Design, <br>\nEnhanced&nbsp;...",
+        "cacheId": "8V-Hwo9_hxkJ",
+        "formattedUrl": "https://www.acm.org/hennessy-patterson-turing-lecture",
+        "htmlFormattedUrl": "https://www.acm.org/hennessy-patterson-turing-<b>lecture</b>",
+        "pagemap": {
+          "cse_thumbnail": [
+            {
+              "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRPBiOcm6qnq4LIENM30UWUCzSDFfEL-VC_ECkqKg6PxwVjwuzjvHAnsKI",
+              "width": "225",
+              "height": "225"
+            }
+          ],
+          "metatags": [
+            {
+              "og:image": "https://www.acm.org/images/acm_rgb_grad_pos_diamond.png",
+              "og:type": "website",
+              "twitter:card": "summary_large_image",
+              "twitter:title": "John Hennessy and David Patterson Deliver Turing Lecture at ISCA 2018",
+              "twitter:site": "@theofficialacm",
+              "viewport": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+              "twitter:description": "webpage to host livestream of hennessy-patterson turing lecture",
+              "og:title": "John Hennessy and David Patterson Deliver Turing Lecture at ISCA 2018",
+              "og:url": "https://www.acm.org/hennessy-patterson-turing-lecture",
+              "og:description": "webpage to host livestream of hennessy-patterson turing lecture",
+              "twitter:image": "https://www.acm.org/images/acm_rgb_grad_pos_diamond.png"
+            }
+          ],
+          "cse_image": [
+            {
+              "src": "https://www.acm.org/images/acm_rgb_grad_pos_diamond.png"
+            }
+          ]
+        }
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "Lectures - CSCI 402, Summer 2014, MW Section - Merlot",
+        "htmlTitle": "<b>Lectures</b> - CSCI 402, Summer 2014, MW Section - Merlot",
+        "link": "http://merlot.usc.edu/cs402-m14/lectures.html",
+        "displayLink": "merlot.usc.edu",
+        "snippet": "Lecture Slides. (Please note that access to lecture notes is restricted.) Lecture 1 (\nPDF) (6-up PDF) (May 21, 2014) - administrative, warmup #1, introduction (Ch 1)\n ...",
+        "htmlSnippet": "<b>Lecture</b> Slides. (Please note that access to <b>lecture</b> notes is restricted.) <b>Lecture</b> 1 (<br>\nPDF) (6-up PDF) (May 21, 2014) - administrative, warmup #1, introduction (Ch 1)<br>\n&nbsp;...",
+        "cacheId": "kcuQvEKDY24J",
+        "formattedUrl": "merlot.usc.edu/cs402-m14/lectures.html",
+        "htmlFormattedUrl": "merlot.usc.edu/cs402-m14/<b>lectures</b>.html"
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "Variational Inference",
+        "htmlTitle": "Variational Inference",
+        "link": "https://www.cs.princeton.edu/courses/archive/fall11/cos597C/lectures/variational-inference-i.pdf",
+        "displayLink": "www.cs.princeton.edu",
+        "snippet": "See the exponential family lecture.) – So, the variational posterior mean and \nvariance of the cluster component k is. E[µk] = λ1 + ∑.",
+        "htmlSnippet": "See the exponential family <b>lecture</b>.) – So, the variational posterior mean and <br>\nvariance of the cluster component k is. E[µk] = λ1 + ∑.",
+        "cacheId": "AfaBncgk7Q8J",
+        "formattedUrl": "https://www.cs.princeton.edu/courses/.../lectures/variational-inference-i.pdf",
+        "htmlFormattedUrl": "https://www.cs.princeton.edu/courses/.../<b>lectures</b>/variational-inference-i.pdf",
+        "pagemap": {
+          "cse_thumbnail": [
+            {
+              "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSjet4MJt464QaxYAAokLCpStWuOyt-E79-l50KgHoGAFBwUyHZI6FfJME",
+              "width": "312",
+              "height": "162"
+            }
+          ],
+          "metatags": [
+            {
+              "moddate": "D:20111012063100-04'00'",
+              "creator": "TeX",
+              "creationdate": "D:20111012063100-04'00'",
+              "fullbanner": "This is pdfTeX, Version 3.1415926-1.40.10-2.2 (TeX Live 2009) kpathsea version 5.0.0",
+              "producer": "pdfTeX-1.40.10"
+            }
+          ],
+          "cse_image": [
+            {
+              "src": "x-raw-image:///fc1a71da5994e9924c9344d49e37bc39eea0689c233a4754ef95d41ff66be566"
+            }
+          ]
+        },
+        "mime": "application/pdf",
+        "fileFormat": "PDF/Adobe Acrobat",
+        "labels": [
+          {
+            "name": "lectures",
+            "displayName": "Lectures",
+            "label_with_op": "more:lectures"
+          }
+        ]
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "CS1114: Lectures - Cornell CS - Cornell University",
+        "htmlTitle": "CS1114: <b>Lectures</b> - Cornell CS - Cornell University",
+        "link": "http://www.cs.cornell.edu/courses/cs1114/2009sp/lectures.html",
+        "displayLink": "www.cs.cornell.edu",
+        "snippet": "Lecture is held on Tuesdays and Thursdays from 11:15-12:05 in Phillips 407. \nLectures are mandatory. It is important that you attend, because we will cover \nitems ...",
+        "htmlSnippet": "<b>Lecture</b> is held on Tuesdays and Thursdays from 11:15-12:05 in Phillips 407. <br>\n<b>Lectures</b> are mandatory. It is important that you attend, because we will cover <br>\nitems&nbsp;...",
+        "cacheId": "D5BT2IH-ww4J",
+        "formattedUrl": "www.cs.cornell.edu/courses/cs1114/2009sp/lectures.html",
+        "htmlFormattedUrl": "www.cs.cornell.edu/courses/cs1114/2009sp/<b>lectures</b>.html",
+        "labels": [
+          {
+            "name": "lectures",
+            "displayName": "Lectures",
+            "label_with_op": "more:lectures"
+          }
+        ]
+      },
+      {
+        "kind": "customsearch#result",
+        "title": "Lectures - CS/INFO 3152: Introduction to Computer Game ...",
+        "htmlTitle": "<b>Lectures</b> - CS/INFO 3152: Introduction to Computer Game ...",
+        "link": "https://www.cs.cornell.edu/courses/cs3152/2020sp/lectures/",
+        "displayLink": "www.cs.cornell.edu",
+        "snippet": "Lecture, Topic, Additional Materials, Date. Lecture 1, Overview Development \nProcess, Required: • Course FAQ • Fullerton, Chapter 1, 01/22/20. Lecture 2 ...",
+        "htmlSnippet": "<b>Lecture</b>, Topic, Additional Materials, Date. <b>Lecture</b> 1, Overview Development <br>\nProcess, Required: • Course FAQ • Fullerton, Chapter 1, 01/22/20. <b>Lecture</b> 2&nbsp;...",
+        "cacheId": "pS42gvxpn0EJ",
+        "formattedUrl": "https://www.cs.cornell.edu/courses/cs3152/2020sp/lectures/",
+        "htmlFormattedUrl": "https://www.cs.cornell.edu/courses/cs3152/2020sp/<b>lectures</b>/",
+        "labels": [
+          {
+            "name": "lectures",
+            "displayName": "Lectures",
+            "label_with_op": "more:lectures"
+          }
+        ]
+      }
+    ]
+  }
