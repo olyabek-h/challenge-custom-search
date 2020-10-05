@@ -8,3 +8,8 @@ export function search(expression: string) {
     return fetch(`${createBaseUrlQuery()}&q=${expression}`)
         .then(x => x.json())
 }
+
+export function searchByPage(expression: string, startIndex: number) {
+    return fetch(`${createBaseUrlQuery()}&q=${expression}&start=${startIndex}`)
+        .then(x => x.json())
+}
