@@ -1,11 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
 // import MOCK_RESPONSE from '../../services/mock-response.json';
-import { search, searchByPage } from '../../services/services';
+import { search } from '../../services/services';
+import Pagination from './components/pagination';
 import SearchItem from './components/searchItem';
 
 export default function Search() {
     const [text, setText] = useState('');
-    const [results, setResults] = useState<any>({});
+    const [result, setResult] = useState<any>({});
     // console.log(MOCK_RESPONSE);
     const isTimerRunning = useRef(false);
     const timer = useRef<any>(null);
@@ -15,7 +16,7 @@ export default function Search() {
             timer.current = setTimeout(() => {
                 search(text)
                     .then(x => {
-                        setResults(x);
+                        setResult(x);
                     })
             }, 1000);
             isTimerRunning.current = true;
@@ -27,7 +28,7 @@ export default function Search() {
 
         if (isBlank(text)) {
             clearTimeout(timer.current);
-            setResults({});
+            setResult({});
         }
         if (isTimerRunning.current) {
             clearTimeout(timer.current);
@@ -40,38 +41,29 @@ export default function Search() {
     }, [text])
 
 
-    function handlePrePageClick() {
-        const searchTerms = results.queries.previousPage[0].searchTerms;
-        const startIndex = results.queries.previousPage[0].startIndex;
-        searchByPage(searchTerms, startIndex)
-            .then(x => {
-                setResults(x);
-            })
+    function handlePrePageClick(prePageResult: any) {
+        setResult(prePageResult);
     }
 
-    function handleNextPageClick() {
-        const searchTerms = results.queries.nextPage[0].searchTerms;
-        const startIndex = results.queries.nextPage[0].startIndex;
-        searchByPage(searchTerms, startIndex)
-            .then(x => {
-                setResults(x);
-            })
+    function handleNextPageClick(nextPageResult: any) {
+        setResult(nextPageResult);
     }
 
     return (
         <div>
             <div>
                 <input type="text" value={text} onChange={e => setText(e.target.value)} />
-                {Object.keys(results).length !== 0 && (+results.searchInformation.totalResults > 10) &&
-                    <div>
-                        <button disabled={!results.queries.hasOwnProperty('previousPage')} onClick={handlePrePageClick}>{`<`}</button>
-                        <button disabled={!results.queries.hasOwnProperty('nextPage')} onClick={handleNextPageClick}>{`>`}</button>
-                    </div>}
+                <Pagination
+                    isVisible={Object.keys(result).length !== 0 && (+result.searchInformation.totalResults > 10)}
+                    queries={result.queries}
+                    onPrePageClick={handlePrePageClick}
+                    onNextPageClick={handleNextPageClick}
+                />
             </div>
-            {(Object.keys(results).length !== 0) && <div>
-                <span>{`About ${results.searchInformation.formattedTotalResults} results (${results.searchInformation.formattedSearchTime} seconds)`}</span>
+            {(Object.keys(result).length !== 0) && <div>
+                <span>{`About ${result.searchInformation.formattedTotalResults} results (${result.searchInformation.formattedSearchTime} seconds)`}</span>
                 <div>
-                    {results.items.map((item: any, index: number) =>
+                    {result.items.map((item: any, index: number) =>
                         <SearchItem
                             key={index}
                             link={item.link}
