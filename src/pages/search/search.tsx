@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 // import MOCK_RESPONSE from '../../services/mock-response.json';
 import { search, searchByPage } from '../../services/services';
+import SearchItem from './components/searchItem';
 
 export default function Search() {
     const [text, setText] = useState('');
@@ -8,10 +9,6 @@ export default function Search() {
     // console.log(MOCK_RESPONSE);
     const isTimerRunning = useRef(false);
     const timer = useRef<any>(null);
-
-    function createMarkup(expression: string) {
-        return { __html: expression };
-    }
 
     useEffect(() => {
         function startTimer() {
@@ -24,15 +21,24 @@ export default function Search() {
             isTimerRunning.current = true;
         }
 
+        function isBlank(str: string) {
+            return (!str || /^\s*$/.test(str));
+        }
 
+        if (isBlank(text)) {
+            clearTimeout(timer.current);
+            setResults({});
+        }
         if (isTimerRunning.current) {
             clearTimeout(timer.current);
             isTimerRunning.current = false;
         }
-        else if (text !== '') {
+        else if (!isBlank(text)) {
             startTimer();
         }
+
     }, [text])
+
 
     function handlePrePageClick() {
         const searchTerms = results.queries.previousPage[0].searchTerms;
@@ -66,13 +72,13 @@ export default function Search() {
                 <span>{`About ${results.searchInformation.formattedTotalResults} results (${results.searchInformation.formattedSearchTime} seconds)`}</span>
                 <div>
                     {results.items.map((item: any, index: number) =>
-                        <div key={index}>
-                            <a href={item.link}>
-                                <span>{item.displayLink}</span>
-                                <h3>{item.title}</h3>
-                            </a>
-                            <p dangerouslySetInnerHTML={createMarkup(item.htmlSnippet)} /> {/* must use DOMPurify library for care about XSS attack  */}
-                        </div>
+                        <SearchItem
+                            key={index}
+                            link={item.link}
+                            displayLink={item.displayLink}
+                            title={item.title}
+                            htmlSnippet={item.htmlSnippet}
+                        />
                     )}
                 </div>
             </div>}
